@@ -2,7 +2,7 @@ import { addNumbers } from './utils/testutil'
 
 interface ExtendedXMLHttpRequest extends XMLHttpRequest {
     _method?: string
-    _url?: string | URL
+    _url: string | URL
     _requestHeaders: Record<string, string>
     // _startTime?: string;
 }

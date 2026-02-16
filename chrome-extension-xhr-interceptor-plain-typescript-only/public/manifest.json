@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "XHR Interceptor",
+    "version": "1.0.0",
+    "description": "XHR Interceptor. Built with TypeScript and Vite",
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content.js"]
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": ["injected.js"],
+            "matches": ["*://9gag.com/*"]
+        }
+    ],
+    "permissions": ["webRequest"]
+}
