@@ -1,0 +1,19 @@
+{
+  "name": "my-extension-with-vite",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.1.36",
+    "typescript": "~5.9.3",
+    "vite": "^7.3.1"
+  },
+  "dependencies": {
+    "typescript": "~5.9.3",
+    "vite": "^7.3.1",
+    "vite-plugin-web-extension": "^4.5.0",
+    "webextension-polyfill": "^0.12.0"
+  }
+}
