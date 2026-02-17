@@ -1,5 +1,3 @@
-/// <reference types="chrome" />
-
 console.log('>>>', 'Content script loaded!')
 let s = document.createElement('script')
 // must be listed in web_accessible_resources in manifest.json
