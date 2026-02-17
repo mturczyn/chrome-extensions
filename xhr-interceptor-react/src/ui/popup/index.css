@@ -1,0 +1,8 @@
+#root {
+    padding: 0.2em;
+}
+
+html,
+body {
+    height: fit-content;
+}
