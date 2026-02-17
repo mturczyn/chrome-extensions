@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Extension with Vite Plugin and service worker",
+    "version": "1.0.0",
+    "description": "A test extension to demonstrate the use of Vite Plugin Web Extension with a service worker.",
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["src/content.ts"]
+        }
+    ],
+    "background": {
+        "service_worker": "src/background.ts"
+    },
+    "permissions": ["storage", "runtime"]
+}
